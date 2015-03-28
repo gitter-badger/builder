@@ -1,9 +1,8 @@
 Builder 
 =======
-
 Creates .NET projects, with all the relationship between them.
 
-Builder it's a command line program, that helps developers to build a solution from scratch, with all projects relation between them. 
+Builder it's a command line program, that helps developers to build a solution from scratch. 
 
 Example:
 =======
