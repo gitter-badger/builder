@@ -9,12 +9,11 @@ Example:
 
 builder create -t csharp -a MySolution -e "MySolution.Web + (MySolution.Model + A + B + C) + (MySolution.Business + MySolution.Model + (MySolution.Dal + MySolution.Model))"
 
--t defines the template that builder will use
 
--a defines the name of solution
+1. -t defines the template that builder will use
+2. -a defines the name of solution
+3. -e defines the mathematic expression to construct the projects
 
--e defines the mathematic expression to construct the projects
+The principal goal it's that builder supports many others languages (templates).
 
-
-
-![Build](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?retina=true)
+![Build](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva)
