@@ -1,5 +1,7 @@
-Builder 
+Builder  
 =======
+![Build](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva)
+
 Creates .NET projects, with all the relationship between them.
 
 Builder it's a command line program, that helps developers to build a solution from scratch. 
@@ -16,4 +18,4 @@ builder create -t csharp -a MySolution -e "MySolution.Web + (MySolution.Model + 
 
 The principal goal it's that builder supports many others languages (templates).
 
-![Build](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva)
+
